@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body { margin: 0; background: #0b0f14; }
+
+@keyframes gradientShift {
+  0% { filter: hue-rotate(0deg) }
+  50% { filter: hue-rotate(25deg) }
+  100% { filter: hue-rotate(0deg) }
+}
