@@ -162,16 +162,13 @@ function Celebration() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <motion.h1
-          initial={{ x: 0 }}
-          animate={{ x: 0 }}
-          transition={{ duration: 0 }}
+        <h1
           className="text-center text-4xl sm:text-6xl font-extrabold drop-shadow"
           style={{ fontFamily: "Quicksand, system-ui" }}
         >
           Selamat Ulang Tahun, <span className="text-pink-200">Nurhilalia</span>{" "}
           🎂✨
-        </motion.h1>
+        </h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
