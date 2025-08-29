@@ -4,7 +4,6 @@ import confetti from "canvas-confetti";
 import { Card, CardHeader, CardContent, Badge } from "@/components/ui/card";
 import PhotoCard from "@/components/PhotoCard";
 import LiftedPhoto from "@/components/LiftedPhoto";
-import Ballpit from "@/components/ballpit/Ballpit";
 
 // 30 Aug 2025 00:00 WITA = 2025-08-29T16:00:00Z (UTC)
 const TARGET_WITA_ISO = '2025-08-30T01:00:00+08:00'  // +08:00 = WITA
@@ -143,7 +142,6 @@ function CountdownDisplay({ targetIso, onFinish }) {
             </div>
           ))}
         </div>
-        <Ballpit />
       </CardContent>
     </Card>
   );
