@@ -7,10 +7,10 @@ import LiftedPhoto from "@/components/LiftedPhoto";
 import Ballpit from "@/components/ballpit/Ballpit";
 
 // 30 Aug 2025 00:00 WITA = 2025-08-29T16:00:00Z (UTC)
-const TARGET_WITA_ISO = "2025-08-29T16:00:00Z";
+const TARGET_WITA_ISO = "2025-08-29T17:00:00Z";
 
 // === DEBUG FLAG === (bisa juga pakai ?force=1 di URL)
-const FORCE_CELEBRATE_DEFAULT = true;
+const FORCE_CELEBRATE_DEFAULT = false;
 function getUrlForce() {
   try {
     return new URLSearchParams(window.location.search).get("force") === "1";
